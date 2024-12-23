@@ -1,4 +1,4 @@
-# Online-shopping-expense-manager
+# Shopping-expense-manager
 Empowers consumers to track, analyze, and optimize their online shopping expenses.
 
 The widespread adoption of e-commerce and online shopping has revolutionized the retail industry, providing customers with convenience and accessibility. However, with the increasing popularity of online shopping, individuals face significant challenges in managing their expenses effectively. This problem statement aims to address the need for an efficient and user-friendly Online Shopping Expenses Management System (OSEMS) that empowers consumers to track, analyze, and optimize their online shopping expenses.
