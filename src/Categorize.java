@@ -137,7 +137,7 @@ public class Categorize extends javax.swing.JFrame {
         // TODO add your handling code here:
         String catTot="0";
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/osems","root","Subha03");
             
             if(jCat.getSelectedItem().equals("clothing")){

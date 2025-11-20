@@ -37,7 +37,7 @@ public class JFrame extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/desktop-wallpaper-login-background-outlook-login.jpg"))); // NOI18N
+        
         jLabel1.setText("jLabel1");
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
@@ -92,7 +92,7 @@ public class JFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         String user=null, pass=null;
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/osems","root","Subha03");
             String sql1 = "select User_name,Password from user where User_name=? and Password=?";
             //String sql2 = "select Password from user";

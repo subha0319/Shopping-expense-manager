@@ -1,0 +1,20 @@
+# Ignore compiled Java classes
+bin/
+*.class
+
+# Ignore packaged build artifacts
+ExpenseManager.jar
+*.exe
+*.zip
+
+# Ignore distribution folders (where you create the final app)
+ExpenseApp_Final/
+Distribute/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Launch4j config and logs
+*.xml
+*.log

@@ -231,7 +231,7 @@ public class ViewExpense extends javax.swing.JFrame {
             int Bal=0;
             int tot=0,inc=0,limit=0;
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/osems","root","Subha03");
             
             String sql0 = "Select SUM(Amount*quantity) as Total from addexpense where month(ExpenseDate)="+month;//"AND year(ExpenseDate)="+year;

@@ -233,7 +233,7 @@ public class AddExpense extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/osems","root","Subha03");
             
             String sql1 = "Select MAX(Expense_id) from addexpense";
